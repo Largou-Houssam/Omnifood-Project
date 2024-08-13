@@ -6,6 +6,7 @@
 
 html {
     font-size: 62.5%;
+    overflow-x: hidden;
 }
 
 body {
@@ -13,6 +14,8 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #555;
+    overflow-x: hidden;
+    
 }
 
 /******************************/
@@ -47,9 +50,9 @@ body {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.grid--5-cols {
+/* .grid--5-cols {
     grid-template-columns: repeat(5, 1fr);
-}
+} */
 
 .grid--center-v {
     align-items: center;
@@ -170,6 +173,7 @@ body {
     display: flex;
     align-items: center;
     gap: 1.6rem;
+    line-height: 1.2;
 }
 
 .list-icon {
@@ -199,10 +203,3 @@ strong {
     font-weight: 500;
 }
 
-/******************************/
-/* Footer */
-/******************************/
-
-.footer {
-    padding: 9.6rem 0;
-}
